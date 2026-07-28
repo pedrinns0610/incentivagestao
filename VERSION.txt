@@ -1,0 +1,4 @@
+Incentiva Gestão Empresarial
+Versão: 8-decision-orbit
+Hero: Decision Orbit
+Pacote corrigido: index.html contém a seção class="hero-orbit".
