@@ -5,6 +5,7 @@ if (menuToggle && nav) {
 }
 
 const page = window.location.pathname.split('/').pop() || 'index.html';
+const siteVersion = '9-polimento-geral';
 document.querySelectorAll('.main-nav a').forEach(link => {
   const href = link.getAttribute('href');
   if (href === page || (page === '' && href === 'index.html')) {

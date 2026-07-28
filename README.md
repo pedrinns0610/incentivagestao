@@ -2,16 +2,22 @@
 
 Site institucional estático pronto para hospedagem no GitHub Pages.
 
-## Conceito visual atual
-- Hero **Decision Orbit**, construído em HTML, CSS e JavaScript
-- Sem banner estático ou imagem gerada como elemento principal
-- Ecossistema animado ligando Contábil, Fiscal, Pessoas e Gestão
-- Interação leve com movimento do mouse
-- Animações respeitam `prefers-reduced-motion`
-- Navegação direciona o contato principal para WhatsApp
-- Páginas Quem somos e Serviços com conteúdo institucional ampliado
-- Missão, Visão e Valores
-- Favicon com referência absoluta para GitHub Pages
+## Versão atual
+`9-polimento-geral`
 
-## Publicação
-Ative o GitHub Pages em `Settings > Pages`, usando a branch `main`.
+## Implementações v9
+- hero Decision Orbit mantido e preservado
+- identidade visual do hero aplicada nas seções abaixo
+- blocos de início reformulados com Organizar, Prevenir e Direcionar
+- seção Para quem é a Incentiva
+- página Quem somos enriquecida com tom mais humano, compromisso, Missão, Visão e Valores
+- página Serviços reformulada com O que entregamos, O que sua empresa ganha e Quando faz sentido contratar
+- emojis substituídos por ícones SVG lineares
+- CTAs variados direcionando para WhatsApp
+- seção de confiança com fundo escuro
+- processo visual de atendimento
+- SEO básico com robots.txt, sitemap.xml, Open Graph, favicon absoluto e JSON-LD
+- cache busting: style.css?v=9 e main.js?v=9
+
+Base usada nas referências absolutas:
+`https://pedrinns0610.github.io/incentivagestao/`
