@@ -2,24 +2,20 @@
 
 Site institucional estático pronto para hospedagem no GitHub Pages.
 
-## Estrutura
+## Páginas
 - `index.html`
 - `quem-somos.html`
 - `servicos.html`
-- `contato.html`
-- `assets/css/style.css`
-- `assets/js/main.js`
-- `assets/img/`
+- `404.html`
 
-## Destaques da versão
-- 3 banners rotativos com pessoas e visual premium
-- logo atualizada em melhor formato
-- favicon em PNG com referência absoluta para indexação no Google
-- botão flutuante com ícone real do WhatsApp
-- footer com crédito para PS Soluções em Informática
+## Ajustes desta versão
+- banner principal completamente reformulado, sem imagens estáticas como base principal
+- hero moderno com animações leves em HTML/CSS/JS
+- botão principal de contato direcionando para WhatsApp
+- página de contato substituída por redirecionamento para WhatsApp
+- reformulação completa das páginas Quem somos e Serviços
+- inclusão de Missão, Visão e Valores
+- favicon com referência absoluta para o GitHub Pages
 
-## GitHub Pages
-Depois do push, ative em `Settings > Pages`, usando a branch `main`.
-
-Base usada nas referências absolutas do favicon:
+Base usada nas referências absolutas:
 `https://pedrinns0610.github.io/incentivagestao/`

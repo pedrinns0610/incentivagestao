@@ -4,23 +4,13 @@ if (menuToggle && nav) {
   menuToggle.addEventListener('click', () => nav.classList.toggle('open'));
 }
 
-const slides = [...document.querySelectorAll('.slide')];
-const dots = [...document.querySelectorAll('.dot')];
-let currentSlide = 0;
-let timer;
-function showSlide(index) {
-  if (!slides.length) return;
-  currentSlide = (index + slides.length) % slides.length;
-  slides.forEach((slide, i) => slide.classList.toggle('active', i === currentSlide));
-  dots.forEach((dot, i) => dot.classList.toggle('active', i === currentSlide));
-}
-function startSlider() {
-  clearInterval(timer);
-  timer = setInterval(() => showSlide(currentSlide + 1), 6200);
-}
-dots.forEach((dot, i) => dot.addEventListener('click', () => { showSlide(i); startSlider(); }));
-showSlide(0);
-startSlider();
+const page = window.location.pathname.split('/').pop() || 'index.html';
+document.querySelectorAll('.main-nav a').forEach(link => {
+  const href = link.getAttribute('href');
+  if (href === page || (page === '' && href === 'index.html')) {
+    link.classList.add('active');
+  }
+});
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -42,19 +32,12 @@ filterButtons.forEach(button => {
   });
 });
 
-const contactForm = document.querySelector('#contactForm');
-if (contactForm) {
-  contactForm.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const data = new FormData(contactForm);
-    const nome = data.get('nome') || '';
-    const empresa = data.get('empresa') || '';
-    const email = data.get('email') || '';
-    const telefone = data.get('telefone') || '';
-    const servico = data.get('servico') || '';
-    const mensagem = data.get('mensagem') || '';
-    const subject = encodeURIComponent(`Contato pelo site - ${nome}`);
-    const body = encodeURIComponent(`Nome: ${nome}\nEmpresa: ${empresa}\nE-mail: ${email}\nTelefone: ${telefone}\nInteresse: ${servico}\n\nMensagem:\n${mensagem}`);
-    window.location.href = `mailto:contato@incentivagestao.com.br?subject=${subject}&body=${body}`;
-  });
+const words = [...document.querySelectorAll('.rotating-word')];
+let currentWord = 0;
+if (words.length > 1) {
+  setInterval(() => {
+    words[currentWord].classList.remove('is-active');
+    currentWord = (currentWord + 1) % words.length;
+    words[currentWord].classList.add('is-active');
+  }, 2200);
 }
