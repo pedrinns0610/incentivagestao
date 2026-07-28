@@ -5,7 +5,7 @@ if (menuToggle && nav) {
 }
 
 const page = window.location.pathname.split('/').pop() || 'index.html';
-const siteVersion = '9-polimento-geral';
+const siteVersion = '10-mobile-orbit';
 document.querySelectorAll('.main-nav a').forEach(link => {
   const href = link.getAttribute('href');
   if (href === page || (page === '' && href === 'index.html')) {
@@ -35,7 +35,7 @@ filterButtons.forEach(button => {
 
 
 const decisionCanvas = document.querySelector('#decisionCanvas');
-if (decisionCanvas && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+if (decisionCanvas && window.matchMedia('(pointer: fine) and (min-width: 769px)').matches && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const stage = decisionCanvas.closest('.decision-stage');
   stage.addEventListener('pointermove', (event) => {
     const rect = stage.getBoundingClientRect();

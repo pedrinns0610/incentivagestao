@@ -3,7 +3,7 @@
 Site institucional estático pronto para hospedagem no GitHub Pages.
 
 ## Versão atual
-`9-polimento-geral`
+`10-mobile-orbit`
 
 ## Implementações v9
 - hero Decision Orbit mantido e preservado
@@ -21,3 +21,11 @@ Site institucional estático pronto para hospedagem no GitHub Pages.
 
 Base usada nas referências absolutas:
 `https://pedrinns0610.github.io/incentivagestao/`
+
+## Ajustes v10
+- correção do banner Decision Orbit no mobile
+- canvas responsivo sem estouro lateral
+- cards do orbit reduzidos no celular
+- sinais ocultos no mobile para não poluir a navegação
+- movimento 3D limitado a desktop/notebook
+- cache busting: style.css?v=10 e main.js?v=10
