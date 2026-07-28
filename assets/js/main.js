@@ -32,12 +32,19 @@ filterButtons.forEach(button => {
   });
 });
 
-const words = [...document.querySelectorAll('.rotating-word')];
-let currentWord = 0;
-if (words.length > 1) {
-  setInterval(() => {
-    words[currentWord].classList.remove('is-active');
-    currentWord = (currentWord + 1) % words.length;
-    words[currentWord].classList.add('is-active');
-  }, 2200);
+
+const decisionCanvas = document.querySelector('#decisionCanvas');
+if (decisionCanvas && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const stage = decisionCanvas.closest('.decision-stage');
+  stage.addEventListener('pointermove', (event) => {
+    const rect = stage.getBoundingClientRect();
+    const x = (event.clientX - rect.left) / rect.width - 0.5;
+    const y = (event.clientY - rect.top) / rect.height - 0.5;
+    decisionCanvas.style.setProperty('--ry', `${x * 5}deg`);
+    decisionCanvas.style.setProperty('--rx', `${y * -5}deg`);
+  });
+  stage.addEventListener('pointerleave', () => {
+    decisionCanvas.style.setProperty('--ry', '0deg');
+    decisionCanvas.style.setProperty('--rx', '0deg');
+  });
 }
