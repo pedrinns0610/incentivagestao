@@ -5,7 +5,7 @@ if (menuToggle && nav) {
 }
 
 const page = window.location.pathname.split('/').pop() || 'index.html';
-const siteVersion = '10-mobile-orbit';
+const siteVersion = '11-seo-conversao';
 document.querySelectorAll('.main-nav a').forEach(link => {
   const href = link.getAttribute('href');
   if (href === page || (page === '' && href === 'index.html')) {

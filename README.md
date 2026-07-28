@@ -3,29 +3,27 @@
 Site institucional estático pronto para hospedagem no GitHub Pages.
 
 ## Versão atual
-`10-mobile-orbit`
+`11-seo-conversao`
 
-## Implementações v9
-- hero Decision Orbit mantido e preservado
-- identidade visual do hero aplicada nas seções abaixo
-- blocos de início reformulados com Organizar, Prevenir e Direcionar
-- seção Para quem é a Incentiva
-- página Quem somos enriquecida com tom mais humano, compromisso, Missão, Visão e Valores
-- página Serviços reformulada com O que entregamos, O que sua empresa ganha e Quando faz sentido contratar
-- emojis substituídos por ícones SVG lineares
-- CTAs variados direcionando para WhatsApp
-- seção de confiança com fundo escuro
-- processo visual de atendimento
-- SEO básico com robots.txt, sitemap.xml, Open Graph, favicon absoluto e JSON-LD
-- cache busting: style.css?v=9 e main.js?v=9
+## Implementações v11
+- manteve o banner Decision Orbit aprovado
+- manteve correção mobile da v10
+- criou páginas individuais para serviços principais
+- adicionou FAQ na home, em Serviços e nas páginas individuais
+- melhorou links internos entre serviços
+- reforçou conteúdo local com Belo Horizonte/MG
+- otimizou títulos e meta descriptions por página
+- adicionou JSON-LD com AccountingService, LocalBusiness, WebPage, Service e FAQPage
+- atualizou sitemap.xml com todas as páginas novas
+- atualizou robots.txt
+- adicionou mensagens pré-preenchidas nos CTAs do WhatsApp
+- cache busting: style.css?v=11 e main.js?v=11
 
-Base usada nas referências absolutas:
-`https://pedrinns0610.github.io/incentivagestao/`
+## Publicação
+Copie o conteúdo da pasta `incentivagestao` para a raiz do repositório e rode:
 
-## Ajustes v10
-- correção do banner Decision Orbit no mobile
-- canvas responsivo sem estouro lateral
-- cards do orbit reduzidos no celular
-- sinais ocultos no mobile para não poluir a navegação
-- movimento 3D limitado a desktop/notebook
-- cache busting: style.css?v=10 e main.js?v=10
+```bash
+git add -A
+git commit -m "feat: implementar SEO e paginas de servicos v11"
+git push origin main
+```
