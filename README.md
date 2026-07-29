@@ -3,7 +3,7 @@
 Site institucional estático pronto para hospedagem no GitHub Pages.
 
 ## Versão atual
-`11-seo-conversao`
+`12-equipe`
 
 ## Implementações v11
 - manteve o banner Decision Orbit aprovado
@@ -27,3 +27,5 @@ git add -A
 git commit -m "feat: implementar SEO e paginas de servicos v11"
 git push origin main
 ```
+
+- adicionada seção da equipe na página Quem somos com imagem tratada e highlights institucionais
