@@ -3,7 +3,7 @@
 Site institucional estático pronto para hospedagem no GitHub Pages.
 
 ## Versão atual
-`17-equipe-cards-sobrepostos`
+`18-logos-carousel`
 
 ## Implementações v11
 - manteve o banner Decision Orbit aprovado
@@ -39,3 +39,5 @@ git push origin main
 - v16: mantida a foto horizontal clean, reduzido o título da seção Quem somos e aumentado o espaçamento dos quatro cards abaixo do texto
 
 - v17: removida a faixa branca diagonal da foto e ajustado o bloco dos quatro cards para voltar a sobrepor levemente a imagem
+
+- v18: adicionada faixa de logos dos clientes abaixo do banner, com logos padronizadas em branco e carrossel responsivo
