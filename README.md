@@ -3,7 +3,7 @@
 Site institucional estático pronto para hospedagem no GitHub Pages.
 
 ## Versão atual
-`19-logos-corrigidas`
+`20-logos-formato-clean`
 
 ## Implementações v11
 - manteve o banner Decision Orbit aprovado
@@ -41,3 +41,5 @@ git push origin main
 - v17: removida a faixa branca diagonal da foto e ajustado o bloco dos quatro cards para voltar a sobrepor levemente a imagem
 
 - v19: corrigida conversão das logos para PNG branco com transparência, removido carrossel de palavras do banner e criada seção de logos separada do hero
+
+- v20: reformulado o carrossel de logos para uma faixa mais clean, sem cards em formato de bolha e com melhor separação visual do banner
