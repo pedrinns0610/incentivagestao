@@ -558,3 +558,60 @@ html,body{max-width:100%;overflow-x:hidden}
   .team-icon svg{width:44px;height:44px}
   .team-cta-card{padding:24px}
 }
+
+
+/* v15 horizontal team photo refinement */
+.team-photo-panel{
+  min-height: 0;
+}
+.team-photo-panel img{
+  aspect-ratio: 4 / 3;
+  min-height: 0;
+  object-fit: cover;
+  object-position: center center;
+}
+@media (max-width:720px){
+  .team-photo-panel img{
+    aspect-ratio: 1.12 / 1;
+  }
+}
+
+
+/* v16 team section spacing refinement */
+.team-editorial{
+  gap:56px;
+}
+.team-editorial-copy h2{
+  font-size:clamp(2rem,3.6vw,3.45rem);
+  line-height:1.08;
+  margin:20px 0 26px;
+}
+.team-editorial-copy p{
+  margin-bottom:20px;
+}
+.team-editorial-copy p:last-child{
+  margin-bottom:0;
+}
+.team-value-grid{
+  margin-top:46px;
+}
+.team-value-card{
+  padding:30px 24px;
+}
+@media(max-width:1080px){
+  .team-editorial{
+    gap:34px;
+  }
+  .team-value-grid{
+    margin-top:36px;
+  }
+}
+@media(max-width:720px){
+  .team-editorial-copy h2{
+    font-size:clamp(1.85rem,9vw,2.55rem);
+    margin-bottom:20px;
+  }
+  .team-value-grid{
+    margin-top:30px;
+  }
+}
