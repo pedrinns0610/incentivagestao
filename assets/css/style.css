@@ -357,3 +357,10 @@ html,body{max-width:100%;overflow-x:hidden}
 .team-highlights span{display:block;color:var(--muted);line-height:1.55}
 @media (max-width:1080px){.team-showcase{grid-template-columns:1fr}.team-media:before{inset:-12px 18px 18px -12px}}
 @media (max-width:720px){.team-highlights{grid-template-columns:1fr}.team-media img{border-radius:28px}.team-highlights article{padding:16px 16px 14px}}
+
+/* v13 equipe portrait refinement */
+.team-showcase{align-items:start}
+.team-media{max-width:560px;width:100%;margin:0 auto}
+.team-media img{aspect-ratio:4 / 5;object-fit:cover;object-position:center top}
+@media (max-width:1080px){.team-media{max-width:620px}}
+@media (max-width:720px){.team-media img{aspect-ratio:auto;object-fit:contain}}

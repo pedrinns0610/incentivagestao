@@ -3,7 +3,7 @@
 Site institucional estático pronto para hospedagem no GitHub Pages.
 
 ## Versão atual
-`12-equipe`
+`13-equipe-foto-ajustada`
 
 ## Implementações v11
 - manteve o banner Decision Orbit aprovado
@@ -29,3 +29,5 @@ git push origin main
 ```
 
 - adicionada seção da equipe na página Quem somos com imagem tratada e highlights institucionais
+
+- substituída a foto da equipe por uma nova versão vertical com ajuste visual para melhor encaixe na seção
