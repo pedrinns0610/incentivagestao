@@ -615,3 +615,37 @@ html,body{max-width:100%;overflow-x:hidden}
     margin-top:30px;
   }
 }
+
+
+/* v17 team photo overlay cleanup */
+.team-photo-panel:before{
+  display:none;
+}
+.team-photo-panel:after{
+  right:-8%;
+  bottom:-16%;
+  width:58%;
+  height:48%;
+  border-radius:50%;
+  border:1px solid rgba(214,176,109,.34);
+  box-shadow:none;
+  background:none;
+}
+.team-photo-panel{
+  overflow:hidden;
+}
+.team-value-grid{
+  margin-top:-34px;
+  position:relative;
+  z-index:4;
+}
+@media(max-width:1080px){
+  .team-value-grid{
+    margin-top:-18px;
+  }
+}
+@media(max-width:720px){
+  .team-value-grid{
+    margin-top:24px;
+  }
+}
