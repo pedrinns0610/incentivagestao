@@ -3,7 +3,7 @@
 Site institucional estático pronto para hospedagem no GitHub Pages.
 
 ## Versão atual
-`24-servicos-societarios-urls`
+`25-contatos-atualizados`
 
 ## Implementações v11
 - manteve o banner Decision Orbit aprovado
@@ -53,3 +53,5 @@ git push origin main
 
 - v24: URL de Consultoria Tributária e Empresarial alterada para consultoria-tributaria-empresarial.html com redirecionamento da URL antiga
 - v24: Abertura de empresa renomeado para Serviços Societários e Paralegais, com URL nova, textos do cliente, FAQ e sitemap atualizados
+
+- v25: contatos atualizados para contato@incentivagestao.com.br, (31) 98501-5227 e WhatsApp 5531985015227
