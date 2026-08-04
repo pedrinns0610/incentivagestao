@@ -1004,3 +1004,26 @@ h3{
 .footer-links a[href="politica-de-privacidade.html"]{
   opacity:.9;
 }
+
+
+/* v28 footer logo refinement */
+.footer-brand{
+  max-width:320px;
+}
+.footer-logo{
+  width:clamp(120px,12vw,170px);
+  max-width:100%;
+  height:auto !important;
+  display:block;
+  margin:0 0 18px;
+  border-radius:0;
+  object-fit:contain;
+  object-position:left center;
+  filter:drop-shadow(0 10px 22px rgba(0,0,0,.14));
+}
+@media (max-width:720px){
+  .footer-logo{
+    width:132px;
+    margin-bottom:14px;
+  }
+}
