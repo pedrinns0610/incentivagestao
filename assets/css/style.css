@@ -924,3 +924,67 @@ html,body{max-width:100%;overflow-x:hidden}
     animation-duration:38s;
   }
 }
+
+
+/* v23 typography refinement */
+h1{
+  font-size:clamp(2rem,3.15vw,3.35rem);
+  line-height:1.08;
+}
+h2{
+  font-size:clamp(1.6rem,2.55vw,2.55rem);
+  line-height:1.14;
+  letter-spacing:-.04em;
+}
+h3{
+  font-size:1.22rem;
+}
+.hero-orbit h1{
+  font-size:clamp(2.35rem,4.55vw,4.25rem);
+  line-height:1.02;
+}
+.page-hero h1{
+  font-size:clamp(2rem,3.25vw,3.35rem);
+  line-height:1.08;
+  max-width:960px;
+}
+.page-hero p{
+  font-size:clamp(1rem,1.35vw,1.12rem);
+  line-height:1.65;
+}
+.section-head h2,
+.section-intro h2,
+.service-content-block h2,
+.related-services h2{
+  font-size:clamp(1.55rem,2.35vw,2.35rem);
+}
+.service-sidebar h2{
+  font-size:clamp(1.55rem,2.1vw,2.05rem);
+}
+.band h2,
+.values-band h2,
+.dark-trust h2,
+.team-cta-card h3{
+  font-size:clamp(1.5rem,2.25vw,2.25rem);
+}
+.team-editorial-copy h2{
+  font-size:clamp(1.85rem,3vw,3rem);
+}
+.client-marquee-header h2{
+  font-size:clamp(1.45rem,2.2vw,2.05rem);
+}
+@media(max-width:720px){
+  .hero-orbit h1{
+    font-size:clamp(2rem,9vw,2.8rem);
+  }
+  .page-hero h1{
+    font-size:clamp(1.8rem,8vw,2.45rem);
+  }
+  h2,
+  .section-head h2,
+  .section-intro h2,
+  .service-content-block h2,
+  .related-services h2{
+    font-size:clamp(1.42rem,7vw,2rem);
+  }
+}

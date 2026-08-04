@@ -3,7 +3,7 @@
 Site institucional estático pronto para hospedagem no GitHub Pages.
 
 ## Versão atual
-`22-bpo-cliente`
+`23-consultoria-tributaria-titulos`
 
 ## Implementações v11
 - manteve o banner Decision Orbit aprovado
@@ -47,3 +47,6 @@ git push origin main
 - v21: carrossel de logos em faixa full width, sem texto auxiliar acima e com melhor preenchimento lateral no desktop
 
 - v22: atualizada a página BPO Financeiro conforme textos enviados pelo cliente, incluindo banner, público indicado, entregas e perguntas frequentes
+
+- v23: serviço Planejamento Tributário renomeado para Consultoria Tributária e Empresarial, com banner e público indicado atualizados
+- v23: tipografia geral refinada, reduzindo títulos grandes para melhorar hierarquia e leitura do site
