@@ -3,7 +3,7 @@
 Site institucional estático pronto para hospedagem no GitHub Pages.
 
 ## Versão atual
-`26-textos-comerciais`
+`27-seo-dominio-oficial`
 
 ## Implementações v11
 - manteve o banner Decision Orbit aprovado
@@ -58,3 +58,6 @@ git push origin main
 
 - v26: removidos textos internos sobre SEO, páginas otimizadas, Google e links internos da área visível do site
 - v26: textos das seções de serviços da página inicial e da página Serviços foram ajustados para linguagem comercial voltada ao cliente
+
+- v27: domínio oficial aplicado em canonical, OG, sitemap, robots e dados estruturados
+- v27: adicionados CNAME, og-image, política de privacidade, WebP da foto da equipe, dimensões de imagens e guia de publicação

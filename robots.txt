@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://pedrinns0610.github.io/incentivagestao/sitemap.xml
+Sitemap: https://www.incentivagestao.com.br/sitemap.xml

@@ -988,3 +988,19 @@ h3{
     font-size:clamp(1.42rem,7vw,2rem);
   }
 }
+
+
+/* v27 SEO/domain production refinements */
+.team-photo-panel picture{
+  display:block;
+  width:100%;
+  height:100%;
+}
+.team-photo-panel picture img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.footer-links a[href="politica-de-privacidade.html"]{
+  opacity:.9;
+}
