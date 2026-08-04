@@ -3,7 +3,7 @@
 Site institucional estático pronto para hospedagem no GitHub Pages.
 
 ## Versão atual
-`23-consultoria-tributaria-titulos`
+`24-servicos-societarios-urls`
 
 ## Implementações v11
 - manteve o banner Decision Orbit aprovado
@@ -50,3 +50,6 @@ git push origin main
 
 - v23: serviço Planejamento Tributário renomeado para Consultoria Tributária e Empresarial, com banner e público indicado atualizados
 - v23: tipografia geral refinada, reduzindo títulos grandes para melhorar hierarquia e leitura do site
+
+- v24: URL de Consultoria Tributária e Empresarial alterada para consultoria-tributaria-empresarial.html com redirecionamento da URL antiga
+- v24: Abertura de empresa renomeado para Serviços Societários e Paralegais, com URL nova, textos do cliente, FAQ e sitemap atualizados
